@@ -11,7 +11,8 @@ import { shared, setShared } from "herdr";
 export const KEY = "pomodoro";
 const SESSIONS = "pomodoro.sessions";
 export const PHASES = {
-  focus: { label: "Focus", color: "accent" },
+  // Tomato red: the terminal palette's red, so it follows the theme.
+  focus: { label: "Focus", color: "ansi1" },
   short: { label: "Short break", color: "done" },
   long: { label: "Long break", color: "working" },
 };
